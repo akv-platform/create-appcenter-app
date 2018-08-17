@@ -1,0 +1,30 @@
+{
+  "api": {
+    "env": "INT",
+    "token": "${token}"
+  },
+  "organization": "Platform-Support-Team",
+  "xcodev": "10.0",
+  "iOS": {
+    "signTypes": ["NoSign", "DevSign", "AutoSign", "DistrSign"],
+    "branches": ["", "auto-signing", "manual-signing", "manual-signing-enterprise"],
+    "applications": {
+      "CocoaPods" : {
+        "git": "https://github.com/akv-platform/CocoaPods.git",
+        "platform": "Objective-C-Swift"
+      },
+      "TestModeliOS": {
+        "git": "https://github.com/akv-platform/TestModeliOS.git",
+        "platform": "Objective-C-Swift"
+      },
+      "RunscopeGravityGame": {
+        "git": "https://github.com/akv-platform/RunscopeGravityGame.git",
+        "platform": "Objective-C-Swift"
+      },
+      "AuthCarthage": {
+        "git": "https://github.com/akv-platform/AuthCarthage.git",
+        "platform": "Objective-C-Swift"
+      }
+    }
+  }
+}
